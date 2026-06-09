@@ -1,0 +1,270 @@
+# 🛒 AMAZON GLOBAL SALES DASHBOARD
+
+_Analyzing global sales performance, customer segments, market trends, product profitability, and return patterns using Excel and Power BI._
+
+---
+
+## 📌 Table of Contents
+
+- [Overview](#overview)
+- [Business Problem](#business-problem)
+- [Dataset](#dataset)
+- [Tools & Technologies](#tools--technologies)
+- [Project Structure](#project-structure)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Research Questions & Key Findings](#research-questions--key-findings)
+- [Dashboard](#dashboard)
+- [How to Run This Project](#how-to-run-this-project)
+- [Final Recommendations](#final-recommendations)
+- [Author & Contact](#author--contact)
+
+---
+
+## Overview
+
+This project focuses on analyzing global sales transactions, customer purchasing behavior, market performance, and product profitability using the Amazon Global Superstore dataset.
+
+The dashboard was built using **Power BI** to provide interactive insights into worldwide sales operations and support strategic business decision-making through data analytics.
+
+### Project Includes:
+
+- Sales performance analysis
+- Customer segment analysis
+- Market and regional analysis
+- Product profitability tracking
+- Return order monitoring
+- KPI reporting and business insights
+
+---
+
+## Business Problem
+
+Global retail businesses generate large volumes of sales data across different regions, products, and customer segments. Analyzing this information manually is inefficient and time-consuming.
+
+This project aims to:
+
+- Analyze sales performance across global markets
+- Monitor customer purchasing behavior
+- Identify profitable and loss-making products
+- Track returned orders and their impact
+- Evaluate regional sales performance
+- Support data-driven business decisions
+
+---
+
+## Dataset
+
+The project uses three datasets:
+
+### Orders Table
+Contains detailed sales transaction information.
+
+### People Table
+Contains regional manager information.
+
+### Returns Table
+Contains returned order information.
+
+### Dataset Summary
+
+- Total Orders: **51,290**
+- Customer Segments:
+  - Consumer
+  - Corporate
+  - Home Office
+- Markets:
+  - Asia Pacific
+  - Europe
+  - USCA
+  - LATAM
+  - Africa
+
+### Key Columns Included
+
+#### Orders
+
+- Order ID
+- Order Date
+- Ship Date
+- Ship Mode
+- Customer ID
+- Customer Name
+- Segment
+- City
+- State
+- Country
+- Region
+- Market
+- Product Name
+- Category
+- Sub-Category
+- Sales
+- Quantity
+- Profit
+
+#### People
+
+- Region
+- Person
+
+#### Returns
+
+- Order ID
+- Returned
+
+---
+
+## Tools & Technologies
+
+- Power BI
+- Microsoft Excel
+- DAX
+- Data Modeling
+- Data Visualization
+- GitHub
+
+---
+
+## Project Structure
+
+```text
+amazon-global-sales-dashboard/
+│
+├── README.md
+├── Orders.csv
+├── People.csv
+├── Returns.csv
+│
+├── dashboard/
+│   └── amazon_dashboard.pbix
+│
+├── images/
+│   └── dashboard.png
+│
+└── reports/
+    └── Project_Report.pdf
+```
+
+---
+
+## Data Cleaning & Preparation
+
+The following preprocessing steps were performed:
+
+- Removed duplicate records
+- Handled missing values
+- Standardized date formats
+- Validated sales and profit values
+- Cleaned customer information
+- Created relationships between tables
+- Built DAX measures and KPIs
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+### Sales KPIs
+
+| KPI | Value |
+|------|------|
+| Total Sales | 22.99K |
+| Product Units Sold | 3,788 |
+| Total Orders | 51K |
+| Returned Orders | 1,464 |
+
+### Customer Segment Analysis
+
+- Consumer Segment generated the highest sales contribution.
+- Corporate Segment contributed significant revenue.
+- Home Office Segment generated comparatively lower sales.
+
+### Market Analysis
+
+- Asia Pacific generated the highest sales.
+- Europe showed strong performance.
+- Africa contributed the lowest sales share.
+
+### Product Analysis
+
+- Canon imageCLASS products generated the highest profit.
+- Several products generated consistent losses.
+
+### Return Analysis
+
+- Returned orders impacted overall profitability.
+- Return trends help identify operational inefficiencies.
+
+---
+
+## Research Questions & Key Findings
+
+### 1. Which customer segment generated the highest sales?
+
+**Finding:** Consumer Segment contributed over 50% of total sales.
+
+### 2. Which market performed best?
+
+**Finding:** Asia Pacific generated the highest sales contribution.
+
+### 3. Which products generated the highest profits?
+
+**Finding:** Canon imageCLASS products delivered the highest profitability.
+
+### 4. Which products generated losses?
+
+**Finding:** Several office and technology products consistently generated negative profits.
+
+### 5. How significant are returns?
+
+**Finding:** Returned orders accounted for 1,464 transactions affecting profitability.
+
+### 6. Which regions contributed most to sales?
+
+**Finding:** Europe and Asia Pacific showed strong sales performance.
+
+---
+
+## Dashboard
+
+### Power BI Dashboard Includes
+
+- Year-wise Sales Analysis
+- Sales by Region
+- Sales by Market
+- Sales by Segment
+- Profit by Customer
+- Top 5 Profit by Product
+- Bottom 5 Profit by Product
+- Return Order Analysis
+- Interactive Filters & Slicers
+
+![Amazon Global Sales Dashboard](images/dashboard.png)
+
+## Final Recommendations
+
+- Focus marketing efforts on Consumer Segment customers.
+- Promote highly profitable products.
+- Review loss-making products.
+- Reduce return rates through quality control.
+- Expand in high-performing markets.
+- Improve inventory planning using sales trends.
+
+---
+
+## Author & Contact
+
+**Abhishek Kumar**  
+B.Tech CSE Student | Data Analyst | Power BI Enthusiast
+
+📧 Email: abhishek6200singh@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/abhishek9500/
+
+🔗 GitHub: https://github.com/Abhishek9500
+
+---
+
+## 📜 License
+
+This project is created for educational and portfolio purposes.
